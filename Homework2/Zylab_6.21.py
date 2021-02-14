@@ -9,7 +9,7 @@ d = int(input())    # Second equation, dx + ey = f
 e = int(input())
 f = int(input())
 
-solved = False      # Initialize is the equation is solved. It is not at this point.
+solved = False      # Initialize if the equation is solved. It is not at this point.
 
 for x in range(-10, 11):       # brute force equation
     for y in range(-10, 11):
