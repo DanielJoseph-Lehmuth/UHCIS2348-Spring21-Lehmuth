@@ -62,6 +62,7 @@ while user_option != 'q':       # implement user options. 'q' is to quit
         rate_above = int(input("Enter a rating:\n"))
         print()
         print("ABOVE", rate_above)
+        jersey_num_list.sort()
         for jersey_num in jersey_num_list:
             if team_roster_dict[jersey_num] > rate_above:
                 print("Jersey number: {}, Rating: {}".format(jersey_num, team_roster_dict[jersey_num]))
